@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(111, 3, 244);
+  display: flex;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #myLottie {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-top: -100px;
+  }
+
+  #myLottieButton {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 40px;
+  }
+  
+
+  .button {
+    background: #5b0abd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #aa79e4;
+    outline: none;
+    box-shadow: 0px 10px 20px #4a00a9;
+  }
+  .button:hover,
+  .button:active {
+    cursor: pointer;
+
+    background: #3d0088;
+    color: #ba9fdc;
+    box-shadow: 0px 10px 20px #2c0065;
+  }
+
+  .inactive {
+    opacity: 0.4;
+  }
